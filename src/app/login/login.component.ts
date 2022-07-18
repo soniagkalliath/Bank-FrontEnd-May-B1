@@ -45,11 +45,31 @@ export class LoginComponent implements OnInit {
   }
 
   //login
-  login() {
+  // login() {
+  //   var acno = this.acno
+  //   var pswd = this.pswd
 
+  //   let userDetails = this.userDetails
 
-    var acno = this.acno
-    var pswd = this.pswd
+  //   if (acno in userDetails) {
+  //     if (pswd == userDetails[acno]['password']) {
+  //       alert('Login Successful')
+  //     }
+  //     else {
+  //       alert('Incorrect password')
+  //     }
+  //   }
+  //   else {
+  //     alert('User doesnot exist!!')
+  //   }
+  // }
+
+  //login - with 2 arg - template reference
+  login(a:any,p:any) {
+    // console.log(a.value);
+    
+    var acno = a.value
+    var pswd = p.value
 
     let userDetails = this.userDetails
 
@@ -64,7 +84,6 @@ export class LoginComponent implements OnInit {
     else {
       alert('User doesnot exist!!')
     }
-
   }
 
 }

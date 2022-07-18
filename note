@@ -38,7 +38,7 @@
 
                             3.1.2.2 Event Binding using $event  (event name)="function-name($event)"
 
-                            3.1.2.3 Event Binding using template referencing variable - #variable-name
+                            3.1.2.3 Using template referencing variable - #variable-name
 
 
 
