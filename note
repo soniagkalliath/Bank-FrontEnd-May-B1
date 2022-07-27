@@ -12,6 +12,9 @@
 
                     3. to generate component - ng g c component-name
 
+                    3. to generate service - ng g s service-name
+
+
 
                                     Basic Building Blocks
 
@@ -39,6 +42,41 @@
                             3.1.2.2 Event Binding using $event  (event name)="function-name($event)"
 
                             3.1.2.3 Using template referencing variable - #variable-name
+
+                    3.2 Two way Binding - data shairing in both direction-
+                    
+                            3.2.1 ngModel - import FormsModule in AppModule
+                            - [(ngModel)]="Property-name" , Property-name should defined in ts file 
+
+                4. Angular routing - to set path for component in appRoutingModule
+                    - {path:value,component:class-name} 
+                    - use router-outlet selector inside the root component
+
+                5. Dependency Injection- to share data between dependent classes
+
+                6. Angular services - to hold redundant data
+
+                7. ngSubmit 
+
+                8. Angular Directives -  To manupulate DOM
+
+                    8.1 Component Directives 
+
+                    8.2 Structural Directives
+
+                        8.2.1 - *ngFor
+
+
+                9. Angular Forms
+
+                    9.1 Template Driven Forms - first design html
+
+                    9.2 Model Driven Forms - first design in ts file
+
+                        9.2.1 Reactive Forms - Form group, array , control
+                                - Add validations
+                                - import ReactiveFormsModule 
+
 
 
 
